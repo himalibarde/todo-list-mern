@@ -47,27 +47,29 @@ This app helps users manage daily tasks efficiently with features like deadlines
 
 # 📂 Project Structure
 
+```text
 Todo-List/
 │
 ├── backend/
-│ ├── models/
-│ │ └── todoList.js
-│ ├── server.js
-│ ├── package.json
-│ └── package-lock.json
+│   ├── models/
+│   │   └── todoList.js
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── frontend/
-│ ├── public/
-│ │ └── index.html
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Todo.js
-│ │ │ └── Todo.css
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ └── index.css
-│ ├── package.json
-│ └── package-lock.json
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Todo.js
+│   │   │   └── Todo.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── .gitignore
 └── README.md
