@@ -10,17 +10,25 @@ This app helps users manage daily tasks efficiently with features like deadlines
   - Deadline (date & time)
   - Priority (Low / Medium / High)
   - Category (Personal, College, Work, etc.)
+
 ✏️ Edit existing tasks
+
 ❌ Delete tasks
+
 ✅ Mark tasks as Completed or Pending
+
 🔍 Search tasks by name
+
 🎯 Filter tasks (All / Pending / Completed)
+
 ⚠️ Automatically highlights **Overdue tasks**
+
 📊 Dashboard with task statistics:
   - Total tasks
   - Completed tasks
   - Pending tasks
   - Overdue tasks
+
 🎨 Modern and responsive UI using **React Bootstrap & CSS**
 
 # 🛠️ Tech Stack
