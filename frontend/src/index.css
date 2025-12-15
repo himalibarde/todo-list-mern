@@ -1,0 +1,29 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Center the main container slightly */
+.container {
+  max-width: 800px;
+}
+
+/* Table text alignment */
+table th,
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Buttons spacing */
+button {
+  min-width: 90px;
+}
