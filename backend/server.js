@@ -10,7 +10,8 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to your MongoDB database (replace with your database URL)
-mongoose.connect("mongodb://127.0.0.1/todo");
+mongoose.connect(process.env.MONGO_URI);
+
 
 
 
