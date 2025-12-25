@@ -17,7 +17,7 @@ const todoSchema = new mongoose.Schema({
   priority: {                           // ADD THIS
     type: String,
     enum: ['Low', 'Medium', 'High'],
-    default: 'Medium'
+    required: true
   },
   category: {                           // ADD THIS
     type: String,

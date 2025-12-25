@@ -23,7 +23,8 @@ function Todo() {
   const [editingTodo, setEditingTodo] = useState(null);
 
   // Backend URL
-  const BASE_URL = "http://localhost:3001";
+  const BASE_URL = process.env.REACT_APP_BACKEND_URL || "https://todo-backend-19db.onrender.com";
+
 
   // Fetch all todos
   const getTodos = () => {
@@ -289,7 +290,7 @@ function Todo() {
               </div>
             </Form.Group>
 
-            <Button onClick={addTodo} className="add-btn">
+            <Button type="button" onClick={addTodo} className="add-btn">
               <i className="bi bi-plus-circle"></i> Add Task
             </Button>
           </div>
